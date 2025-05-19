@@ -30,7 +30,7 @@ import Cart from './Components/Website/Cart';
 import UpdateMember from "./Pages/Admin/UpdateMember"
 import AddPackages from './Pages/Admin/AddPackages';
 import Viewpackage from './Pages/Admin/ViewPackage';
-import Editpackage from './Pages/Admin/Editpackage';
+import EditPackage from './Pages/Admin/EditPackage';
 import SupplementStore from './Pages/Member/SupplementStore';
 import FeeRecipt from "./Pages/Member/FeeRecipt"
 import Mydeits from './Pages/Member/Mydeits';
@@ -159,7 +159,7 @@ function App() {
                 element: <Viewpackage />
               }, {
                 path: "/admin/packages/edit-package/:id",
-                element: <Editpackage />
+                element: <EditPackage />
               }
             ]
           },
