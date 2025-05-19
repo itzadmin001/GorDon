@@ -7,7 +7,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Gordonlogo from "../../assets/Images/Gordon.png"
+import Gordonlogo from "../../assets/Images/GorDon.png"
 
 function Footer() {
     const menu = [
