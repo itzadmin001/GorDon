@@ -71,7 +71,7 @@ function SlickSlider({ data, type, settings, selectPackage, user, SetSelectPacka
                                 </ul>
                                 <button className="bg-[#CAFF33] text-black px-4 py-2 rounded-full font-semibold hover:bg-black hover:text-[#CAFF33] cursor-pointer" onClick={() => {
                                     SetSelectPackage(item.id)
-                                    user ? navigate('/cart') : navigate('/login')
+                                    navigate('/cart')
                                 }}>
                                     Register Now
                                 </button>
