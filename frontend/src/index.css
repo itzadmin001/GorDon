@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+body {
+    background-color: #050505;
+    color: white;
+}
+
+/* loader spinner (optional if you're using Tailwind animate-spin) */
+.loader {
+    border-top-color: #CAFF33;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
