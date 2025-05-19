@@ -103,7 +103,7 @@ const PaymentDetails = ({ member }) => (
 
 const TrainerDetails = ({ trainerDetails, member }) => {
     // Find the first trainer whose gender matches the member's gender
-    const matchedTrainer = trainerDetails.find(item => item.gender === member.gender);
+    const matchedTrainer = trainerDetails.find(item => item.gender === member?.gender);
 
     return (
         <section className="py-2">
