@@ -8,7 +8,7 @@
 
 Gordon Gym Management System is a modern, full-featured web application for gym management, built using React, Vite, and Firebase. It provides separate dashboards for Admin and Members, with modules for member management, trainers, billing, diet plans, notifications, supplements, and more. The project uses a single MainContext for all global state and data operations, making all functions reusable and maintainable.
 
----
+--- Unfortunately, I couldn't add the image storage functionality as Firebase's image storage service is paid. ✅
 
 ## Project Structure
 
